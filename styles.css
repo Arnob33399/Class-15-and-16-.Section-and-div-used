@@ -1,0 +1,48 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.hero{
+    background-image: url("images/My.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: yellowgreen;
+}
+
+.project{
+    margin-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-item{
+    float: left;
+    height: 200px;
+    width: 32.5%;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    height: 150px;
+    background-color: rgb(18, 16, 16);
+    color: white;
+    margin-top: 5px;
+}
+
+.footer-item{
+    float: left;
+    width: 33%;
+}
+
+.link{
+    text-decoration: none;
+    color: beige;
+    display: block;
+    margin-top: 3px;
+}
